@@ -11,7 +11,7 @@ export default async function handler(
   const { question, history } = req.body;
 
   let histories: BaseChatMessage[] = [];
-  history.forEach(hist => {
+  history.forEach((hist: { [x: string]: string; }) => {
     if(hist['type'] === 'human')  {
       let req: BaseChatMessage = new HumanChatMessage(question);
       histories.push(req);
@@ -20,8 +20,6 @@ export default async function handler(
       histories.push(respond);
     }
   });
-
-
   console.log('question:', question);
 
   //only accept post requests
