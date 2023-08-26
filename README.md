@@ -4,7 +4,6 @@ Use the new GPT-4 api to build a chatGPT chatbot for multiple Large PDF files, d
 
 Tech stack used includes LangChain, Chroma, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Chroma is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
 
-[Tutorial video using the Pinecone db instead of the opensource Chroma db](https://www.youtube.com/watch?v=ih9PBGVVOO4)
 
 The visual guide of this repo and tutorial is in the `visual guide` folder.
 
@@ -111,4 +110,4 @@ In general, keep an eye out in the `issues` and `discussions` section of this re
 
 ## Credit
 
-Frontend of this repo is inspired by [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain), and [gpt4-pdf-chatbot-langchain-chroma](https://github.com/sagarsaija/gpt4-pdf-chatbot-langchain-chroma)
+
